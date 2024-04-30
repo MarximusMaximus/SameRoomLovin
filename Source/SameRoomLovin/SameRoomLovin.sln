@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SameRoomLovin", "SameRoomLovin\SameRoomLovin.csproj", "{68FA7381-B85F-4FF7-A94D-B2B2D1DB054A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtherFiles", "OtherFiles", "{1D8C8C65-2E33-4863-BD01-81C9205C5C05}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.gitignore = ..\..\.gitignore
+		..\..\changelog.md = ..\..\changelog.md
+		..\..\LICENSE = ..\..\LICENSE
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "About", "About", "{92C2FA04-275E-446E-950F-736D6942D04F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\About\About.xml = ..\..\About\About.xml
+		..\..\About\Preview.PNG = ..\..\About\Preview.PNG
+		..\..\About\PublishedFileId.txt = ..\..\About\PublishedFileId.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jobs", "Jobs", "{A5D52808-FF0C-41DB-A018-94B63FCA3509}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobDefs", "JobDefs", "{8473AE2E-A52C-4449-A416-84884D343B09}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Defs\JobDefs\Jobs_SRL.xml = ..\..\Defs\JobDefs\Jobs_SRL.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patches", "Patches", "{E279B372-92FB-4521-A21D-35A3C1278689}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Patches\ThinkTree_Lovin.xml = ..\..\Patches\ThinkTree_Lovin.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68FA7381-B85F-4FF7-A94D-B2B2D1DB054A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FA7381-B85F-4FF7-A94D-B2B2D1DB054A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FA7381-B85F-4FF7-A94D-B2B2D1DB054A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FA7381-B85F-4FF7-A94D-B2B2D1DB054A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92C2FA04-275E-446E-950F-736D6942D04F} = {1D8C8C65-2E33-4863-BD01-81C9205C5C05}
+		{A5D52808-FF0C-41DB-A018-94B63FCA3509} = {1D8C8C65-2E33-4863-BD01-81C9205C5C05}
+		{8473AE2E-A52C-4449-A416-84884D343B09} = {A5D52808-FF0C-41DB-A018-94B63FCA3509}
+		{E279B372-92FB-4521-A21D-35A3C1278689} = {1D8C8C65-2E33-4863-BD01-81C9205C5C05}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12B8656A-0430-470B-8B76-BA5A263DCF83}
+	EndGlobalSection
+EndGlobal

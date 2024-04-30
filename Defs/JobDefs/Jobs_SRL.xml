@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>SRL_Lovin_Standard</defName>
+    <driverClass>SameRoomLovin.JobDriver_Lovin_Standard</driverClass>
+    <reportString>lovin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>SRL_Lovin_Group_Primary</defName>
+    <driverClass>SameRoomLovin.JobDriver_Lovin_Group_Primary</driverClass>
+    <reportString>lovin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>SRL_Lovin_Group_Secondary</defName>
+    <driverClass>SameRoomLovin.JobDriver_Lovin_Group_Secondary</driverClass>
+    <reportString>lovin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+</Defs>
