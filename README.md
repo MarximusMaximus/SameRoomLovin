@@ -1,12 +1,19 @@
-Temporary version?
-  
 Allows pawns to initiate lovin' with any (or every) lover they share a bedroom with.
-  
+Also lovin' with single beds.
+
 Changes to OG:
-Recompiled/repackaged for 1.5. (If the OG updates, let me know so I can remove this one.)
+Recompiled/repackaged for 1.5, 1.6. (If the OG updates, let me know so I can remove this one.)
+Made multi-version compatible
 Modified solution file for easier maintenance of other files.
 Changed references from CanCreatePsychicBondBetween_NewTemp to CanCreatePsychicBondBetween and recompiled.
 git-ified the project
 Added a version number
-  
+
+Main Website: https://teammerryshark.com
+Patreon (On Going Support): https://www.patreon.com/teammerryshark
+Ko-fi (On Going/One Time Support): https://ko-fi.com/teammerryshark
+
+Mod Source: https://github.com/MarximusMaximus/rimworld-same-room-lovin
+
+Original Author: Unreal
 Original Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2884500441
