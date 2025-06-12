@@ -20,18 +20,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "About", "About", "{92C2FA04
 		..\..\About\PublishedFileId.txt = ..\..\About\PublishedFileId.txt
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jobs", "Jobs", "{A5D52808-FF0C-41DB-A018-94B63FCA3509}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobDefs", "JobDefs", "{8473AE2E-A52C-4449-A416-84884D343B09}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Defs\JobDefs\Jobs_SRL.xml = ..\..\Defs\JobDefs\Jobs_SRL.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patches", "Patches", "{E279B372-92FB-4521-A21D-35A3C1278689}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Patches\ThinkTree_Lovin.xml = ..\..\Patches\ThinkTree_Lovin.xml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,9 +36,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{92C2FA04-275E-446E-950F-736D6942D04F} = {1D8C8C65-2E33-4863-BD01-81C9205C5C05}
-		{A5D52808-FF0C-41DB-A018-94B63FCA3509} = {1D8C8C65-2E33-4863-BD01-81C9205C5C05}
-		{8473AE2E-A52C-4449-A416-84884D343B09} = {A5D52808-FF0C-41DB-A018-94B63FCA3509}
-		{E279B372-92FB-4521-A21D-35A3C1278689} = {1D8C8C65-2E33-4863-BD01-81C9205C5C05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {12B8656A-0430-470B-8B76-BA5A263DCF83}
